@@ -3,21 +3,24 @@ header {
   height: 100px;
 }
 .navbar {
-  border: 3px solid black;
+  border: 3px solid blue;
   height: 20px;
   width: 20%;
+  margin: 5px;
+
 }
 section {
   border: 5px solid black;
   height: 250px;
 }
 .title {
-  border: 3px solid black;
+  border: 3px solid red;
   height: 20px;
 }
 .text {
   border: 3px solid black;
   height: 75px;
+  margin: 20px;
 }
 .content {
   border: 3px solid black;
@@ -43,15 +46,20 @@ section {
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .text{
     width: 40%;
+    float: left;
   }
   .time {
     float: left;
+    margin: 10px;
   }
   .content{
     float: right;
+    margin: 10px;
+
   }
   .navbar {
-    width: 100%;
+    width: 90%;
+    padding-left: 50px;
   }
   .polygon{
     width: 40%;
@@ -61,6 +69,7 @@ section {
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .text{
     width: 40%;
+    float: left;
   }
   .time {
     float: left;
@@ -69,7 +78,8 @@ section {
     float: right;
   }
   .navbar {
-    width: 100%;
+    width: 90%;
+    padding-left: 50px;
   }
   .polygon{
     width: 40%;
@@ -79,6 +89,7 @@ section {
 @media screen and (min-width: 1200px) {
   .text{
     width: 40%;
+    float: left;
   }
 
   .time {
@@ -88,7 +99,8 @@ section {
     float: right;
   }
   .navbar {
-    width: 100%;
+    width: 90%;
+    padding-left: 50px;
   }
   .polygon{
     width: 40%;
