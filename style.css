@@ -1,0 +1,42 @@
+header {
+  border: 5px solid black;
+  height: 100px;
+}
+.navbar {
+  border: 3px solid black;
+  height: 20px;
+  width: 20%;
+}
+section {
+  border: 5px solid black;
+  height: 200px;
+}
+.title {
+  border: 3px solid black;
+  height: 20px;
+}
+.text {
+  border: 3px solid black;
+height: 75px;
+}
+.content {
+  border: 3px solid black;
+  height: 10px;
+  margin-top: 5px;
+  width: 40%;
+  float: right;
+}
+.time {
+  border: 3px solid black;
+  height: 10px;
+  margin-top: 5px;
+  width: 40%;
+  float: left;
+}
+.polygon {
+  border: 3px solid black;
+  height: 10px;
+  margin-top: 5px;
+  width: 50%;
+  margin: 10px auto;
+}
