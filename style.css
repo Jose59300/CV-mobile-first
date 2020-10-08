@@ -73,9 +73,11 @@ section {
   }
   .time {
     float: left;
+    margin: 10px;
   }
   .content{
     float: right;
+    margin: 10px;
   }
   .navbar {
     width: 90%;
@@ -94,9 +96,13 @@ section {
 
   .time {
     float: left;
+    margin: 10px;
+
   }
   .content{
     float: right;
+    margin: 10px;
+
   }
   .navbar {
     width: 90%;
