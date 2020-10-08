@@ -1,0 +1,77 @@
+header {
+  border: 5px solid black;
+  height: 200px;
+}
+nav {
+  border : 5px solid blue;
+  height : 50px;
+}
+section {
+  border: 3px solid red;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.title {
+  border: 3px solid red;
+  width: 100%;
+}
+.text {
+  border: 3px solid black;
+  height: 100px;
+  width: 40%;
+  margin: 5px auto;
+}
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.content {
+  border: 3px solid black;
+  height: 10px;
+  width: 40%;
+  margin: 5px auto;
+}
+.time {
+  border: 3px solid black;
+  height: 10px;
+  margin-top: 5px;
+  width: 40%;
+  margin: 5px auto
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+.polygon {
+  border: 3px solid black;
+  height: 50px;
+  margin-top: 5px;
+  width: 15%;
+  margin: 10px auto;
+}
+@media screen and (max-width: 768px) {
+section {
+  height: 300px;
+}
+nav {
+  width: 20%;
+}
+.text{
+  width: 80%;
+}
+  .content{
+    width: 80%;
+  }
+  .time{
+    width: 80%;
+  }
+  .polygon{
+    width: 80%;
+    height: 25px;
+  }
+}
