@@ -9,7 +9,7 @@ header {
 }
 section {
   border: 5px solid black;
-  height: 200px;
+  height: 250px;
 }
 .title {
   border: 3px solid black;
@@ -17,21 +17,20 @@ section {
 }
 .text {
   border: 3px solid black;
-height: 75px;
+  height: 75px;
 }
 .content {
   border: 3px solid black;
   height: 10px;
-  margin-top: 5px;
   width: 40%;
-  float: right;
+  margin: 5px auto
 }
 .time {
   border: 3px solid black;
   height: 10px;
   margin-top: 5px;
   width: 40%;
-  float: left;
+  margin: 5px auto
 }
 .polygon {
   border: 3px solid black;
@@ -39,4 +38,60 @@ height: 75px;
   margin-top: 5px;
   width: 50%;
   margin: 10px auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .text{
+    width: 40%;
+  }
+  .time {
+    float: left;
+  }
+  .content{
+    float: right;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .polygon{
+    width: 40%;
+    float: left;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .text{
+    width: 40%;
+  }
+  .time {
+    float: left;
+  }
+  .content{
+    float: right;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .polygon{
+    width: 40%;
+    float: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .text{
+    width: 40%;
+  }
+
+  .time {
+    float: left;
+  }
+  .content{
+    float: right;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .polygon{
+    width: 40%;
+    float: left;
+  }
 }
